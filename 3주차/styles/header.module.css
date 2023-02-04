@@ -1,0 +1,49 @@
+.wrapper {
+    /* 스크롤 시에 상단 고정 */
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 180px;
+}
+
+/* 양 끝 가운데 정렬 */
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login {
+    font-weight: 600;
+    color: #39E7BD;
+    font-size: 20px;
+    /* 마우스 커서 변경 */
+    cursor: pointer;
+}
+
+.bottom {
+    /* 6개를 동일한 크기로 정렬 */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.item {
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* class에 item 과 active 가 모두 있을 경우 */
+.item.active {
+    color: #39E7BD;
+}

@@ -1,0 +1,29 @@
+.container {
+    background-color: white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .16);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.thumbnail {
+    width: 100%;
+    /* 비율 4:3 설정 */
+    aspect-ratio: calc(4 / 3);
+    /* 이미지를 찌그러뜨리지 않고 자르기 */
+    object-fit: cover;
+}
+
+.content {
+    padding: 18px 24px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price {
+    text-align: right;
+    color: #999;
+}

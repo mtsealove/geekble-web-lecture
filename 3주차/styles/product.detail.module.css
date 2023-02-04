@@ -1,0 +1,36 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top {
+    /* 1:1 비율로 가로 배치 */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+.btnPurchase {
+    background-color: #050505;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 24px;
+    width: 100%;
+    padding: 16px 0 ;
+    cursor: pointer;
+    margin-top: 72px;
+}
+
+.bottom {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.contentImg {
+    width: 100%;
+}
